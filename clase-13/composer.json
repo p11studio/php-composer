@@ -1,0 +1,24 @@
+{
+    "name": "hugoponce/clase-13",
+    "description": "Ejemplo composer",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "3.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hugoponce\\Clase13\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hugo Ponce",
+            "email": "p11studyo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
